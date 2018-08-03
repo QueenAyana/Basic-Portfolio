@@ -22,10 +22,15 @@
     <br>
         <div id= "box-2"> 
             <div id="title">Contact</div>
-                <div class="namebx"></div>
-                    Your Name: 
-                    <input type="text">
-                </div>    
+                <form action=""></form>
+                <div id="label">Your Name:</div>                    
+                    <input id="txtbx" type="text" autocomplete="on" placeholder="Jane Doe"required>
+                        <div id="label">Email:</div>                    
+                            <input id="txtbx" type="email" autocomplete="on" placeholder="Youremail@domain.com" required>
+                                <div id="label">Message:</div>                    
+                                    <textarea name="message" id="msg" cols="30" rows="10"required></textarea> 
+                                        <button class="sub" form="txtbx" form="msg">Submit</button>
+                                               
         </div>
     <br>
         <footer></footer>
