@@ -1,0 +1,81 @@
+.img-me{
+    height: 110px;
+    width: 85px;
+    float: left;
+    margin: 30px 25px 30px 25px;
+}
+
+#box{
+    background-color: #ffffff;
+    padding: 40px 30px 40px 30px;
+    margin: 40px 220px 40px 220px;
+    border: solid #cccccc;
+    border-width: 2px;
+    top: 90px;
+    position: fixed;
+   
+}
+
+.text{
+    margin: 30px 25px 30px 25px;
+}
+
+#title{
+    color: #4aaaa5;
+    border-bottom: 4px;
+    border-bottom-color: #dddddd;
+    margin: 15px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*------Background--------*/
+body{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    height: 100%;
+}
+
+/*-------------NAV BAR--------------*/
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+}
+
+#name{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    float: left;
+    display: block;
+    color: #ffffff;                   
+    background-color: #4aaaa5;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin: 0 100px 0 220px;
+    padding: 20px;
+    height: 90px;
+}
+
+.navlnk{
+    padding: 3px 220px 0px 0px;
+    display: flex;
+    float: right;
+
+}
+
+.navlnk li{
+    list-style: none;
+    margin: 25px 0 0 0;
+    padding: 0 10px 0 10px;
+    border-left: ridge #A59898;
+    border-left-width: 1px;
+}
+
+a{
+    color: #A59898
+}
